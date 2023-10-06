@@ -1,0 +1,85 @@
+*{
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 20000px;
+    box-sizing: border-box;
+}
+
+
+
+.firstbox{
+  width:350px;
+  height: 47px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 300px;
+  margin-left: -86px;
+  
+
+}
+.firstbox a{
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.navbar{
+  background: #01232c;
+  text-shadow: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  opacity: 0.8;
+  height: 100px;
+}
+.logo img{
+  display: flex;
+  align-items: center;
+  width: 80px; 
+}
+#heading{
+  font-size: 1rem;
+  position: relative;
+  font-weight: 700;
+  margin-left: -150px;
+
+}
+.space{
+  margin:15px;
+}
+
+.navbar a:hover{
+  color: rgb(255, 255, 0);
+}
+
+
+.content-container {
+  background-color: #e0e0e0;
+  padding: 20px;
+  margin: 0px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.content-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-text {
+  font-size: 25px;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
+section{
+  text-align:center;
+}

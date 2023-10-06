@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    /* Prevent scrollbars due to zooming */
+    /*background-color: #000;  */
+    color: #fff;
+    background-image: url("space.png");
+}
+
+canvas {
+    display: block;
+}
+
+.firstbox {
+    width: 350px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 300px;
+}
+
+.firstbox a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.navbar {
+    background: #01232c;
+    text-shadow: none;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.logo img {
+    display: flex;
+    align-items: center;
+    width: 80px;
+}
+
+#heading {
+    font-size: 1rem;
+    position: relative;
+    font-weight: 700;
+    margin-left: -150px;
+
+}
+
+
+.secondbox {
+    list-style: none;
+}
+
+.secondbox a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.space {
+    margin: 15px;
+}
+
+
+.navbar a:hover {
+    color: red;
+}

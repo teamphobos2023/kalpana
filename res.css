@@ -1,0 +1,14 @@
+.content-text{
+    display: flex;
+    flex-wrap: wrap;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.response{
+    width: 89%;
+  height: auto;
+}
